@@ -6,6 +6,7 @@ export default {
   ],
   theme: {
     extend: {
+      
       fontSize: {
         grande: '2em'
       },
@@ -14,7 +15,8 @@ export default {
         darkPurple: '#4B0070', // Exemplo de roxo escuro
         azulEscuro: '#032CFF',
         roxolindo: '#8103FF',
-        rosa: '#FA00FF'
+        rosa: '#FA00FF',
+        roxao:'#260A37'
     }}},
   plugins: [],
 }

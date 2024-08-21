@@ -36,10 +36,10 @@ export default function Header() {
                if (siblingIndex < index) {
                  sibling.style.transform = `translateX(-10px)`; // Move para a esquerda
                } else if (siblingIndex > index) {
-                 sibling.style.transform = `translateX(10px)`; // Move para a direita
+                 sibling.style.transform = `translateX(10px)`;
                }
              });
-             e.currentTarget.style.transform = `scale(1.3)`; // Aumenta o elemento atual
+             e.currentTarget.style.transform = `scale(1.3)`; 
            }}
            onMouseLeave={(e) => {
              const siblings = Array.from(e.currentTarget.parentNode.children);
