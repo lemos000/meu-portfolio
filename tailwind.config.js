@@ -12,6 +12,9 @@ export default {
       colors: {
         rosaLindo: '#772CC8',
         darkPurple: '#4B0070', // Exemplo de roxo escuro
+        azulEscuro: '#032CFF',
+        roxolindo: '#8103FF',
+        rosa: '#FA00FF'
     }}},
   plugins: [],
 }
